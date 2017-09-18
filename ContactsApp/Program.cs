@@ -11,6 +11,7 @@ namespace ContactsApp
         static void Main(string[] args)
         {
             List<Contact> danhba = new List<Contact>();
+            List<Contact> danhba = new List<Contact>();
 
             // doc du lieu tu file
             if (File.Exists("contacts.txt"))
@@ -50,5 +51,5 @@ namespace ContactsApp
             Console.ReadLine();
         }
     }
-
 }
+
